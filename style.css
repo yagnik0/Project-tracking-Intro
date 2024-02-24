@@ -1,0 +1,17 @@
+:root {
+    --darkblue : hsl(230, 29%, 20%);
+    --gray :  hsl(230, 11%, 40%);
+    --lightgray: hsl(231, 7%, 65%);
+    --lightwhite: hsl(207, 33%, 95%);
+    --red :hsl(0, 100%, 68%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
