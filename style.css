@@ -184,7 +184,7 @@ header {
 
 .background {
     position: absolute;
-    width: 100vw;
+    width: 50%;
     background-color: var(--lightwhite);
     height: 55vh;
     top: 0%;
@@ -210,11 +210,12 @@ header {
         margin-bottom: 1rem;
         gap: 4rem;
         min-height: 100vh;
-        padding: 2rem;
+        /* padding: 2rem; */
     }
 
     .grid-2-col {
         grid-row: 1;
+        text-align: center;
     }
 
     .grid-2-col img{
@@ -256,11 +257,11 @@ header {
 
     .nav-bar {
         width: 75vw;
-        height: 37vh;
+        height: 38%;
         background-color: var(--lightwhite);
         position: absolute;
         top: 10%;
-        right: 15%;
+        right: 10%;
         padding: 0 2rem;
         z-index: 999;
         display: flex;
@@ -272,17 +273,18 @@ header {
         visibility: hidden;
         pointer-events: none;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
     }
 
     .nav-list {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
+        gap: 1.6rem;
     }
 
     .nav-list a::before {
-        bottom: -1.1rem;
+        bottom: -0.75rem;
     }
 
     .nav-list .dot {
@@ -305,5 +307,7 @@ header {
     .active .mobile-nav-btn .mobile-nav-icon[name = "menu-outline"]{
         display: none;
     }
+
+   
 
 }
